@@ -26,7 +26,7 @@
 include("MdParser.php");
 use \semmelsamu\MdParser;
 
-$markdown = file_get_contents("README.md");
+$markdown = file_get_contents("test.md");
 
 $parser = new MdParser();
 echo $parser->text($markdown);

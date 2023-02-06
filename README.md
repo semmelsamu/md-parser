@@ -1,17 +1,5 @@
----
-
-date: 2023-02-05
-
-tags:
-    - md
-    - php
-    
-contributors: [semmelsamu]
-
----
-
-
 # md-parser
+
 Parser for Markdown (md) to HTML.
 Written in PHP.
 
@@ -30,6 +18,7 @@ Copy `MdParser.php` to a static location on your Server.
 
 Include the file. 
 Use the namespace `semmelsamu` and create a new instance of `MdParser`.
+
 ```
 include("MdParser.php");
 use \semmelsamu\MdParser;
