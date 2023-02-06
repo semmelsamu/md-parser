@@ -143,6 +143,10 @@ class MdParser
                 $result = $this->renderCode($lines);
                 break;
                 
+            case "list":
+                $result = $this->renderList($lines);
+                break;
+                
             default:
                 $result = $this->renderText(implode("\n", $lines));
                 break;
